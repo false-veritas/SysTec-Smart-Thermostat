@@ -1,1 +1,19 @@
 # SysTec-Smart-Thermostat
+
+## Summarize the project and what problem it was solving.
+- This project was creating a prototype of how a smart thermostat works. SysTec wanted to have a smart thermostat which will monitor temp and send information through WiFi which will contain info about what the thermostat is doing. This prototype will read the room temp and if the temp is lowered then it will begin heating back up to the temp set. If it is heating then the LED on the TI board will be on. The printing of information in the terminal will simulate the sending of information via WiFi to the SysTec servers.
+
+## What did you do particularly well?
+ - I believe that I created the task scheduler particularly well. I believe in the beginning it was a little intimidating to see how it works but it started to make more sense as I was doing it. It was definitely a little out of my comfort zone working with a microcontroller and in the previous milestone I was overthinking a lot of the work for it so I was cautious in this project to not overthink what is happening. I followed zybooks descriptions and advice from the teacher which helped me better understand the task scheduler and this assignment.
+
+## Where could you improve?
+- I don't believe my code was as clean as I would have liked it to be. I tend to sometimes run into this problem especially when we have existing code which we need to work with. I want to avoid causing any errors so I don't do as much housekeeping with the code as I do when I write code entirely from start to finish. I need to do a better job with making the code much clearer and easier to read/follow. 
+
+## What tools and/or resources are you adding to your support network?
+- In this project, and throughout this course, we used a TI microcontroller, Code Composer Studio and I also used UniFlash for support with the TI microcontroller. Learning how these work together has helped me better understand how we use microcontrollers and how we program them. It was a very different take on programming and I don't know if I will use microcontrollers in my future career but I can definitely say my experience with them now has taught me a lot about working with these tools we used and also has made me realize how these microcontrollers affect our life daily. 
+
+## What skills from this project will be particularly transferable to other projects and/or course work?
+- For this project we needed to bring together what he had learned in previous milestones and use that knowledge to create this prototype thermostat. I did need a little guidance from the teacher to get me started but I believe I achieved what needed to be done. I learned that a lot of reading will go a long way and understanding what you're working with will help to achieve your goal. Understanding the microcontrollers helps to better understand how to program it and I think in the future when dealing with hardware I will do a better job with taking more time in understanding what hardware I'm working with. 
+
+## How did you make this project maintainable, readable, and adaptable?
+- The code is maintainable because it is easy to modify and the use of functions help it to be modified even more easily. If something needs to be changed it can be changed through the functions themeselves and not all the code needs to be changed. This project is readable because through comments and how the functions of the code are written, it lets the reader understand what is happening. The comments throughout the code which were either there before or added by me in my own work helps to make the code readable. Finally, this project is adaptable because the code can be reused. Originally this code was used for another program which I created in milestone three but I modified it to work for this prototype thermostat project. It can easily be changed to work for another purpose as well. 
